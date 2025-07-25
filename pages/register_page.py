@@ -4,22 +4,24 @@ from pages.base_page import BasePage
 
 class RegisterPage(BasePage):
 
-    #NAVEGATION BAR
+    # NAVIGATION BAR
     SIGNUP_LOGIN_BTN = (By.XPATH, "//a[normalize-space()='Signup / Login']")
     NAME_INPUT = (By.NAME, "name")
     EMAIL_INPUT = (By.XPATH, "//input[@data-qa='signup-email']")
     SIGNUP_BTN = (By.XPATH, "//button[normalize-space()='Signup']")
-    #REGISTER
+
+    # REGISTER
     PASSWORD_INPUT = (By.ID, "password")
     TITLE_INPUT = (By.ID, "id_gender1")
-    #VALUE
+
+    # VALUE
     DAY_INPUT = (By.ID, "days")
     MONTH_INPUT = (By.ID, "months")
     YEAR_INPUT = (By.ID, "years")
     NEWSLETTER_INPUT = (By.ID, "newsletter")
-    SPECIAL_OFERT = (By.ID, "optin")
+    SPECIAL_OFFER_INPUT = (By.ID, "optin")
 
-    #PERSONAL DATA
+    # PERSONAL DATA
     FIRST_NAME_INPUT = (By.ID, "first_name")
     LAST_NAME_INPUT = (By.ID, "last_name")
     COMPANY_INPUT = (By.ID, "company")
@@ -31,46 +33,44 @@ class RegisterPage(BasePage):
     ZIPCODE_INPUT = (By.ID, "zipcode")
     MOBILE_NUMBER_INPUT = (By.ID, "mobile_number")
 
-    #created and delete
-    CREATE_ACOUNT_BTN = (By.CSS_SELECTOR, "button[data-qa='create-account']")
+    # CREATED AND DELETE
+    CREATE_ACCOUNT_BTN = (By.CSS_SELECTOR, "button[data-qa='create-account']")
     CONTINUE_BTN = (By.XPATH, "//a[@class='btn btn-primary']")
     DELETE_ACCOUNT_BTN = (By.XPATH, "//a[normalize-space()='Delete Account']")
 
-
-    #testing
+    # TESTING
     NEW_USER_VERIFY = (By.XPATH, "//h2[normalize-space()='New User Signup!']")
-    SINGUP_VERIFY = (By.XPATH, "//b[normalize-space()='Enter Account Information']")
-    ACOUNT_CREATE_VERIFY = (By.XPATH, "//b[normalize-space()='Account Created!']")
+    SIGNUP_VERIFY = (By.XPATH, "//b[normalize-space()='Enter Account Information']")
+    ACCOUNT_CREATED_VERIFY = (By.XPATH, "//b[normalize-space()='Account Created!']")
     USER_VERIFY = (By.XPATH, "//*[contains(text(),'Logged in as')]")
-    DELETE_ACCOUNT_TXT = (By.XPATH, "//b[normalize-space()='Account Deleted!']")
-
+    DELETE_ACCOUNT_VERIFY = (By.XPATH, "//b[normalize-space()='Account Deleted!']")
 
     def __init__(self, driver):
         super().__init__(driver)
 
-    #buttons
-    def click_signup_login(self):
+    # BUTTONS
+    def click_signup_login_button(self):
         self._click(self.SIGNUP_LOGIN_BTN)
 
     def click_signup_button(self):
         self._click(self.SIGNUP_BTN)
 
-    def click_create_acount(self):
-        self._click(self.CREATE_ACOUNT_BTN)
+    def click_create_account_button(self):
+        self._click(self.CREATE_ACCOUNT_BTN)
 
-    def continue_button(self):
+    def click_continue_button(self):
         self._click(self.CONTINUE_BTN)
 
-    def delete_acount_button(self):
+    def click_delete_account_button(self):
         self._click(self.DELETE_ACCOUNT_BTN)
 
-    #data
+    # DATA
     def enter_signup_credentials(self, name, email):
         self._type(self.NAME_INPUT, name)
         self._type(self.EMAIL_INPUT, email)
 
     def fill_account_information(self, title=True, password="1234", day="1", month="1", year="2000",
-                                 newsletter = True, special_ofert = True):
+                                 newsletter=True, special_offer=True):
         if title:
             self._click(self.TITLE_INPUT)
         self._type(self.PASSWORD_INPUT, password)
@@ -79,13 +79,11 @@ class RegisterPage(BasePage):
         self._select_dropdown(self.YEAR_INPUT, year)
         if newsletter:
             self._click(self.NEWSLETTER_INPUT)
-        if special_ofert:
-            self._click(self.SPECIAL_OFERT)
-
+        if special_offer:
+            self._click(self.SPECIAL_OFFER_INPUT)
 
     def fill_address_information(self, first_name, last_name, company, address1, address2,
                                  country, state, city, zipcode, mobile):
-
         self._type(self.FIRST_NAME_INPUT, first_name)
         self._type(self.LAST_NAME_INPUT, last_name)
         self._type(self.COMPANY_INPUT, company)
@@ -101,21 +99,21 @@ class RegisterPage(BasePage):
         select = Select(self._find_element(by_locator))
         select.select_by_visible_text(value)
 
-    #asserts
+    # ASSERTS
     def get_new_user_title(self):
         return self._get_text(self.NEW_USER_VERIFY)
 
     def get_account_info_title(self):
-        return self._get_text(self.SINGUP_VERIFY)
+        return self._get_text(self.SIGNUP_VERIFY)
 
-    def get_create_count(self):
-        return self._get_text(self.ACOUNT_CREATE_VERIFY)
+    def get_account_created_message(self):
+        return self._get_text(self.ACCOUNT_CREATED_VERIFY)
 
-    def user_login(self):
+    def get_logged_user_text(self):
         return self._get_text(self.USER_VERIFY)
 
-    def user_delete(self):
-        return self._get_text(self.DELETE_ACCOUNT_TXT)
+    def get_account_deleted_text(self):
+        return self._get_text(self.DELETE_ACCOUNT_VERIFY)
 
 
 
