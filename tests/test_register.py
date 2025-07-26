@@ -1,6 +1,5 @@
 from pages.register_page import RegisterPage
 
-
 def test_register_new_user(driver):
     driver.get("https://automationexercise.com/")
     page = RegisterPage(driver)
