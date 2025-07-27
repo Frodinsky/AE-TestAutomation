@@ -2,6 +2,7 @@ import random
 import string
 from pages.register_page import RegisterPage
 from components.header_component import HeaderComponent
+from pages.login_page import LoginPage
 
 
 class User:
@@ -12,7 +13,8 @@ class User:
         self.password = password
         self.email = self._generate_random_email()
         self.register_page = RegisterPage(driver)
-        self.header = HeaderComponent(driver)  # Si lo necesitas para logout, home, etc.
+        self.header = HeaderComponent(driver)
+        self.login_page = LoginPage(driver)
 
     @staticmethod
     def _generate_random_email():
@@ -20,7 +22,6 @@ class User:
         return f"tester_{random_string}@example.com"
 
     def create(self):
-        self.driver.get("https://automationexercise.com/")
         self.header.click_signup_login_button()
         print(f"Correo random generado: {self.email}")
 
@@ -57,7 +58,7 @@ class User:
         assert self.name in self.register_page.get_logged_user_text()
 
     def delete(self):
-        self.register_page.click_delete_account_button()
+        self.header.click_delete_account_button()
         assert "ACCOUNT DELETED!" in self.register_page.get_account_deleted_text()
         self.register_page.click_continue_button()
 
@@ -68,3 +69,19 @@ class User:
             "email": self.email,
             "password": self.password
         }
+
+    def login(self):
+        self.header.click_signup_login_button()
+        assert self.driver.current_url == "https://automationexercise.com/login"
+        self.login_page.enter_email_login_credentials(self.email, self.password)
+        self.login_page.click_login_button()
+        assert self.name in self.login_page.verify_user_text()
+
+
+
+    def logout(self):
+        self.header.click_logout_button()
+        assert self.driver.current_url == "https://automationexercise.com/login"
+
+
+
