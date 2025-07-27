@@ -11,6 +11,8 @@ class HeaderComponent(BasePage):
     API_TESTING_BUTTON = (By.XPATH, "//a[normalize-space()='API Testing']")
     VIDEO_TUTORIALS_BUTTON = (By.XPATH, "//a[normalize-space()='Video Tutorials']")
     CONTACT_US_BUTTON = (By.XPATH, "//a[normalize-space()='Contact us']")
+    LOGOUT_BUTTON = (By.XPATH, "//a[normalize-space()='Logout']")
+    DELETE_ACCOUNT_BUTTON = (By.XPATH, "//a[normalize-space()='Delete Account']")
 
     def click_home_button(self):
         self._click(self.HOME_BUTTON)
@@ -35,3 +37,11 @@ class HeaderComponent(BasePage):
 
     def click_contact_us_button(self):
         self._click(self.CONTACT_US_BUTTON)
+
+    def click_logout_button(self):
+        self._click(self.LOGOUT_BUTTON)
+
+    def click_delete_account_button(self):
+        self._click(self.DELETE_ACCOUNT_BUTTON)
+
+
