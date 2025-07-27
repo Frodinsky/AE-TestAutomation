@@ -1,9 +1,12 @@
 from selenium import webdriver
 import pytest
 
+BASE_URL = "https://automationexercise.com/"
+
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome()
+    driver.get(BASE_URL)
     driver.maximize_window()
     yield driver
     driver.quit()
