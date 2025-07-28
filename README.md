@@ -107,7 +107,6 @@ Próximamente:
 
  Test Case 10 – Verificación de carrito persistente
 
-
 ---
 
 ## 🧠 Decisiones Técnicas
@@ -122,3 +121,28 @@ Base Page común: base_page.py contiene funciones compartidas como navegación, 
 
 Enfoque en escalabilidad: Esta estructura permite agregar nuevos tests o funcionalidades sin romper otros casos existentes.
 
+---
+
+## 🗺️ Roadmap / Próximos Pasos
+
+ Añadir al menos 7 test cases adicionales
+
+ Integrar generación de reportes HTML automáticos
+
+ Agregar capturas o grabaciones de ejecución
+
+ Implementar GitHub Actions para CI
+
+ Agregar pruebas negativas y validaciones de errores
+ 
+---
+
+## 📸 Capturas de Pantalla
+
+<!--   ![Ejecución de pruebas](docs/screenshots/test-running.png) -->
+ 
+---
+
+## 📬 Contacto
+
+💼 LinkedIn
