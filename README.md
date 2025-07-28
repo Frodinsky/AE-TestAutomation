@@ -93,19 +93,19 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 
 Actualmente, el proyecto cubre los siguientes escenarios clave:
 
-* **Test Case 1:** Verificación exitosa de la página de inicio.
-* **Test Case 2:** Registro completo de un nuevo usuario.
-* **Test Case 3:** Inicio de sesión de usuario con credenciales válidas.
+* ✅ **Test Case 1:** Verificar la página de inicio.
+* ✅ **Test Case 2:** Registro de nuevo usuario.
+* ✅ **Test Case 3:** Inicio de sesión del usuario.
+* 🛠️ **Test Case 8:** Navegación por categorías.
+* 🛠️ **Test Case 9:** Búsqueda y filtros.
 
 **Próximamente se implementarán los siguientes casos:**
 
-* **Test Case 4:** Eliminación de cuenta de usuario.
-* **Test Case 5:** Flujo completo de compra de un producto.
-* **Test Case 6:** Envío de formulario de contacto.
-* **Test Case 7:** Validación visual de productos y sus detalles.
-* **Test Case 8:** Navegación y filtrado por categorías de productos.
-* **Test Case 9:** Funcionalidad de búsqueda y aplicación de filtros.
-* **Test Case 10:** Verificación de la persistencia del carrito de compras.
+* **Test Case 12:** Añadir productos al carrito desde la página de detalles del producto.
+* **Test Case 13:** Verificación de cantidad de productos en el carrito.
+* **Test Case 14/15/16:** Realizar un pedido.
+* **Test Case 17:** Eliminar productos del carrito.
+* **Test Case 20:** Verificar la funcionalidad de suscripción en el pie de página.
 
 ---
 
