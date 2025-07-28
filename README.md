@@ -145,4 +145,4 @@ Enfoque en escalabilidad: Esta estructura permite agregar nuevos tests o funcion
 
 ## 📬 Contacto
 
-💼 LinkedIn
+💼 [LinkedIn](https://www.linkedin.com/in/rodolfo-lara-qa-automation/)
