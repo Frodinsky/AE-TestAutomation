@@ -81,3 +81,44 @@ pip install -r requirements.txt
 
 3. Ejecutar pruebas
 pytest
+
+---
+
+## ✅ Test Cases Implementados
+
+ Test Case 1 – Verificar la página de inicio
+
+ Test Case 2 – Registro de nuevo usuario
+
+ Test Case 3 – Inicio de sesión del usuario
+
+Próximamente:
+ Test Case 4 – Eliminar cuenta de usuario
+
+ Test Case 5 – Compra de producto
+
+ Test Case 6 – Contacto desde formulario
+
+ Test Case 7 – Validación visual de productos
+
+ Test Case 8 – Navegación por categorías
+
+ Test Case 9 – Búsqueda y filtros
+
+ Test Case 10 – Verificación de carrito persistente
+
+
+---
+
+## 🧠 Decisiones Técnicas
+
+Arquitectura basada en Page Object Model (POM): Cada vista está representada por una clase que encapsula sus elementos y acciones.
+
+Uso de fixtures en Pytest: Mediante conftest.py se definen datos y configuración reutilizable para todos los tests.
+
+Separación de responsabilidades: helpers/ maneja flujos reutilizables, components/ para secciones comunes (como el header).
+
+Base Page común: base_page.py contiene funciones compartidas como navegación, clics, etc.
+
+Enfoque en escalabilidad: Esta estructura permite agregar nuevos tests o funcionalidades sin romper otros casos existentes.
+
