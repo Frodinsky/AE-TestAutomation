@@ -54,7 +54,6 @@ Se utilizan patrones de diseño como **Page Object Model (POM)** y **fixtures de
 
 ## 📁 Estructura del Proyecto
 
-```plaintext
 AE-TestAutomation/
 │
 ├── components/             # Elementos reutilizables como header, modales, etc.
@@ -66,6 +65,19 @@ AE-TestAutomation/
 ├── pytest.ini              # Configuración de pytest
 └── README.md
 
-## 📁 Cómo Ejecutar
+---
 
 
+## ▶️ Cómo Ejecutar
+
+1. Clonar el repositorio
+git clone https://github.com/Frodinsky/AE-TestAutomation.git
+cd AE-TestAutomation
+
+2. Crear entorno virtual e instalar dependencias
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+3. Ejecutar pruebas
+pytest
