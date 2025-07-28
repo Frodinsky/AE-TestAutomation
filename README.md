@@ -54,3 +54,18 @@ Se utilizan patrones de diseño como **Page Object Model (POM)** y **fixtures de
 
 ## 📁 Estructura del Proyecto
 
+```plaintext
+AE-TestAutomation/
+│
+├── components/             # Elementos reutilizables como header, modales, etc.
+├── helpers/                # Flujos de usuario (ej: login, navegación)
+├── pages/                  # Page Objects de cada vista
+├── tests/                  # Casos de prueba automatizados
+├── conftest.py             # Fixtures globales para Pytest
+├── base_page.py            # Clase base con funciones comunes
+├── pytest.ini              # Configuración de pytest
+└── README.md
+
+## 📁 Cómo Ejecutar
+
+
