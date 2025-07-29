@@ -151,7 +151,7 @@ Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas aut
     *Una visión general de los resultados de las pruebas, mostrando el estado de cada test.*
 
 * **Página de Inicio del Sitio Web:**
-    ![Home Page Automation Exercise](demo_screenshots/home)
+    ![Home Page Automation Exercise](demo_screenshots/home.png)
     *La página principal de "Automation Exercise", punto de partida de las pruebas.*
 
 * **Registro de Usuario Exitoso:**
