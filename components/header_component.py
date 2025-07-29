@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 class HeaderComponent(BasePage):
 
     HOME_BUTTON = (By.XPATH, "//a[normalize-space()='Home']")
-    PRODUCTS_BUTTON = (By.XPATH, "//a[normalize-space()='Products']")
+    PRODUCTS_BUTTON = (By.XPATH, "//a[@href='/products']")
     CART_BUTTON = (By.XPATH, "//a[normalize-space()='Cart']")
     SIGNUP_LOGIN_BUTTON = (By.XPATH, "//a[normalize-space()='Signup / Login']")
     TEST_CASES_BUTTON = (By.XPATH, "//a[normalize-space()='Test Cases']")
