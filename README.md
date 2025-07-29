@@ -17,6 +17,7 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 - [🧠 Decisiones Técnicas Clave](#-decisiones-técnicas-clave)
 - [🗺️ Roadmap y Mejoras Futuras](#-roadmap-y-mejoras-futuras)
 - [🎥 Demo del Proyecto](#-demo_del_proyecto)
+- [📬 📸 Capturas de Pantalla](#-captura_de_pantalla)
 - [📬 Contacto](#-contacto)
 
 ---
@@ -138,6 +139,28 @@ Mi plan para la evolución de este proyecto incluye:
 Mira una demostración en video de la ejecución de los tests end-to-end en el proyecto:
 
 [**Ver Demo en Video (YouTube)**](https://youtu.be/gZNL8rM2sJg)
+
+---
+
+## 📸 Capturas de Pantalla
+
+Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas automatizadas:
+
+* **Reporte de Ejecución de Pruebas:**
+    ![Reporte HTML de Pytest](docs/screenshots/reporte_final.png)
+    *Una visión general de los resultados de las pruebas, mostrando el estado de cada test.*
+
+* **Página de Inicio del Sitio Web:**
+    ![Home Page Automation Exercise](docs/screenshots/home_page.png)
+    *La página principal de "Automation Exercise", punto de partida de las pruebas.*
+
+* **Registro de Usuario Exitoso:**
+    ![Página de Registro Completo](docs/screenshots/registro_exitoso.png)
+    *Demostración visual del flujo de registro de un nuevo usuario, confirmando el éxito de la operación.*
+
+* **Visualización del Primer Producto:**
+    ![Producto Individual en Detalle](docs/screenshots/primer_producto.png)
+    *Muestra la página de detalles de un producto, verificando la navegación y la carga de la información del artículo.*
 
 ---
 
