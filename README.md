@@ -37,7 +37,7 @@ Este repositorio ofrece una solución de automatización integral para [https://
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologpías Utilizadas
 
 * **Python 3.x:** Lenguaje principal de desarrollo.
 * **Selenium WebDriver:** Para la interacción con el navegador.
@@ -96,12 +96,12 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 * ✅ **Test Case 1:** Verificar la página de inicio.
 * ✅ **Test Case 2:** Registro de nuevo usuario.
 * ✅ **Test Case 3:** Inicio de sesión del usuario.
-* 🛠️ **Test Case 8:** Navegación por categorías.
+* ✅ **Test Case 8:** Navegación por categorías.
 * 🛠️ **Test Case 9:** Búsqueda y filtros.
+* 🛠️ **Test Case 12:** Añadir productos al carrito desde la página de detalles del producto.
 
 **Próximamente se implementarán los siguientes casos:**
 
-* **Test Case 12:** Añadir productos al carrito desde la página de detalles del producto.
 * **Test Case 13:** Verificación de cantidad de productos en el carrito.
 * **Test Case 14/15/16:** Realizar un pedido.
 * **Test Case 17:** Eliminar productos del carrito.
