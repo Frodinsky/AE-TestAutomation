@@ -126,11 +126,10 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 
 Mi plan para la evolución de este proyecto incluye:
 
-* **Expansión de Cobertura:** Añadir al menos 7 casos de prueba adicionales para cubrir más funcionalidades del sitio.
-* **Generación de Reportes:** Integrar la generación de reportes HTML automáticos para una mejor visibilidad de los resultados de las pruebas.
-* **Evidencia de Ejecución:** Implementar capturas de pantalla automáticas o grabaciones de video durante la ejecución de los tests.
+* **Expansión de Cobertura:** Añadir al menos 6 casos de prueba adicionales para cubrir más funcionalidades del sitio.
+* ✅**Generación de Reportes:** Integrar la generación de reportes HTML automáticos para una mejor visibilidad de los resultados de las pruebas.
+* ✅**Evidencia de Ejecución:** Implementar capturas de pantalla automáticas o grabaciones de video durante la ejecución de los tests.
 * **Integración Continua (CI):** Configurar GitHub Actions para ejecutar las pruebas automáticamente en cada push o pull request.
-* **Pruebas Negativas y Validaciones:** Desarrollar casos de prueba para escenarios negativos y validaciones de errores robustas.
 
 ---
 
