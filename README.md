@@ -16,6 +16,7 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 - [✅ Casos de Prueba Implementados](#-casos-de-prueba-implementados)
 - [🧠 Decisiones Técnicas Clave](#-decisiones-técnicas-clave)
 - [🗺️ Roadmap y Mejoras Futuras](#-roadmap-y-mejoras-futuras)
+- [🎥 Demo del Proyecto](#-demo_del_proyecto)
 - [📬 Contacto](#-contacto)
 
 ---
@@ -130,6 +131,14 @@ Mi plan para la evolución de este proyecto incluye:
 * **Evidencia de Ejecución:** Implementar capturas de pantalla automáticas o grabaciones de video durante la ejecución de los tests.
 * **Integración Continua (CI):** Configurar GitHub Actions para ejecutar las pruebas automáticamente en cada push o pull request.
 * **Pruebas Negativas y Validaciones:** Desarrollar casos de prueba para escenarios negativos y validaciones de errores robustas.
+
+---
+
+## 🎥 Demo del Proyecto
+
+Mira una demostración en video de la ejecución de los tests end-to-end en el proyecto:
+
+[**Ver Demo en Video (YouTube)**](https://youtu.be/gZNL8rM2sJg)
 
 ---
 
