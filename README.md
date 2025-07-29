@@ -23,13 +23,13 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 
 ---
 
-## ✨ Puntos Clave
+## ✨ Puntos Clave <a id="puntos-clave"></a>
 
 Este repositorio ofrece una solución de automatización integral para [https://automationexercise.com](https://automationexercise.com), una plataforma pública excelente para la práctica de pruebas. La implementación sigue rigurosamente patrones de diseño como **Page Object Model (POM)** y aprovecha las **fixtures de Pytest** para construir una arquitectura altamente mantenible y reutilizable.
 
 ---
 
-## 🚀 Características Destacadas
+## 🚀 Características Destacadas <a id="caracteristicas-destacadas"></a>
 
 * **Automatización E2E Completa:** Cobertura de flujos de usuario críticos y reales.
 * **Selenium WebDriver & Pytest:** Combinación potente para pruebas web robustas.
@@ -143,7 +143,7 @@ Mira una demostración en video de la ejecución de los tests end-to-end en el p
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📸 Capturas de Pantalla <a id="capturas-de-pantalla"></a>
 
 Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas automatizadas:
 
