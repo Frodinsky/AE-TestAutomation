@@ -8,27 +8,28 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 
 ## 📌 Tabla de Contenidos
 
-- [✨ Puntos Clave](#-puntos-clave)
-- [🚀 Características Destacadas](#-características-destacadas)
-- [🛠️ Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [▶️ Guía de Ejecución](#-guía-de-ejecución)
-- [✅ Casos de Prueba Implementados](#-casos-de-prueba-implementados)
-- [🧠 Decisiones Técnicas Clave](#-decisiones-técnicas-clave)
-- [🗺️ Roadmap y Mejoras Futuras](#-roadmap-y-mejoras-futuras)
-- [🎥 Demo del Proyecto](#-demo_del_proyecto)
-- [📬 📸 Capturas de Pantalla](#-captura_de_pantalla)
-- [📬 Contacto](#-contacto)
+- [✨ Puntos Clave](#puntos-clave)
+- [🚀 Características Destacadas](#caracteristicas-destacadas)
+- [🛠️ Tecnologías Utilizadas](#tecnologias-utilizadas)
+- [📁 Estructura del Proyecto](#estructura-del-proyecto)
+- [▶️ Guía de Ejecución](#guia-de-ejecucion)
+- [✅ Casos de Prueba Implementados](#casos-de-prueba-implementados)
+- [🧠 Decisiones Técnicas Clave](#decisiones-tecnicas-clave)
+- [🗺️ Roadmap y Mejoras Futuras](#roadmap-y-mejoras-futuras)
+- [🎥 Demo del Proyecto](#demo-del-proyecto)
+- [📸 Capturas de Pantalla](#capturas-de-pantalla)
+- [📬 Contacto](#contacto)
+  
 
 ---
 
-## ✨ Puntos Clave
+## ✨ Puntos Clave <a id="puntos-clave"></a>
 
 Este repositorio ofrece una solución de automatización integral para [https://automationexercise.com](https://automationexercise.com), una plataforma pública excelente para la práctica de pruebas. La implementación sigue rigurosamente patrones de diseño como **Page Object Model (POM)** y aprovecha las **fixtures de Pytest** para construir una arquitectura altamente mantenible y reutilizable.
 
 ---
 
-## 🚀 Características Destacadas
+## 🚀 Características Destacadas <a id="caracteristicas-destacadas"></a>
 
 * **Automatización E2E Completa:** Cobertura de flujos de usuario críticos y reales.
 * **Selenium WebDriver & Pytest:** Combinación potente para pruebas web robustas.
@@ -39,7 +40,7 @@ Este repositorio ofrece una solución de automatización integral para [https://
 
 ---
 
-## 🛠️ Tecnologpías Utilizadas
+## 🛠️ Tecnologpías Utilizadas <a id="tecnologias-utilizadas"></a>
 
 * **Python 3.x:** Lenguaje principal de desarrollo.
 * **Selenium WebDriver:** Para la interacción con el navegador.
@@ -49,7 +50,7 @@ Este repositorio ofrece una solución de automatización integral para [https://
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto <a id="estructura-del-proyecto"></a>
 
 ```
 AE-TestAutomation/
@@ -66,7 +67,7 @@ AE-TestAutomation/
 
 ---
 
-## ▶️ Guía de Ejecución
+## ▶️ Guía de Ejecución <a id="guia-de-ejecucion"></a>
 
 Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 
@@ -91,7 +92,7 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 
 ---
 
-## ✅ Casos de Prueba Implementados
+## ✅ Casos de Prueba Implementados <a id="casos-de-prueba-implementados"></a>
 
 Actualmente, el proyecto cubre los siguientes escenarios clave:
 
@@ -111,7 +112,7 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 
 ---
 
-## 🧠 Decisiones Técnicas Clave
+## 🧠 Decisiones Técnicas Clave <a id="decisiones-tecnicas-clave"></a>
 
 * **Arquitectura Page Object Model (POM):** Cada página o componente significativo de la interfaz de usuario se modela como una clase, encapsulando sus elementos y las interacciones posibles. Esto mejora la legibilidad, mantenibilidad y reusabilidad del código.
 * **Uso Extenso de Pytest Fixtures:** `conftest.py` centraliza la configuración y el `teardown` de los tests (ej. inicialización del WebDriver), asegurando un setup limpio y DRY (Don't Repeat Yourself).
@@ -123,7 +124,7 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 
 ---
 
-## 🗺️ Roadmap y Mejoras Futuras
+## 🗺️ Roadmap y Mejoras Futuras <a id="roadmap-y-mejoras-futuras"></a>
 
 Mi plan para la evolución de este proyecto incluye:
 
@@ -134,7 +135,7 @@ Mi plan para la evolución de este proyecto incluye:
 
 ---
 
-## 🎥 Demo del Proyecto
+## 🎥 Demo del Proyecto <a id="demo-del-proyecto"></a>
 
 Mira una demostración en video de la ejecución de los tests end-to-end en el proyecto:
 
@@ -142,29 +143,29 @@ Mira una demostración en video de la ejecución de los tests end-to-end en el p
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📸 Capturas de Pantalla <a id="capturas-de-pantalla"></a>
 
 Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas automatizadas:
 
 * **Reporte de Ejecución de Pruebas:**
-    ![Reporte HTML de Pytest](docs/screenshots/reporte_final.png)
+    ![Reporte HTML de Pytest](demo_screenshots/report.png)
     *Una visión general de los resultados de las pruebas, mostrando el estado de cada test.*
 
 * **Página de Inicio del Sitio Web:**
-    ![Home Page Automation Exercise](docs/screenshots/home_page.png)
+    ![Home Page Automation Exercise](demo_screenshots/home.png)
     *La página principal de "Automation Exercise", punto de partida de las pruebas.*
 
 * **Registro de Usuario Exitoso:**
-    ![Página de Registro Completo](docs/screenshots/registro_exitoso.png)
+    ![Página de Registro Completo](demo_screenshots/signup.png)
     *Demostración visual del flujo de registro de un nuevo usuario, confirmando el éxito de la operación.*
 
 * **Visualización del Primer Producto:**
-    ![Producto Individual en Detalle](docs/screenshots/primer_producto.png)
+    ![Producto Individual en Detalle](demo_screenshots/product_details.png)
     *Muestra la página de detalles de un producto, verificando la navegación y la carga de la información del artículo.*
 
 ---
 
-## 📬 Contacto
+## 📬 Contacto <a id="contacto"></a>
 
 ¡Me encantaría conectar! No dudes en contactarme para cualquier pregunta o colaboración.
 
