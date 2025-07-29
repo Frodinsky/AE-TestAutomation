@@ -70,19 +70,19 @@ class User:
             "password": self.password
         }
 
-    def login(self):
+    def login_with_valid_credentials(self):
         self.header.click_signup_login_button()
-        login_page = self.driver.current_url == "https://automationexercise.com/login"
-        assert login_page
+        assert self.driver.current_url == "https://automationexercise.com/login"
+        self.login_page.enter_email_login_credentials(self.email, self.password)
+        self.login_page.click_login_button()
+        assert self.name in self.login_page.verify_user_text()
 
-        if login_page:
-            self.login_page.enter_email_login_credentials(self.email, self.password)
-            self.login_page.click_login_button()
-            assert "Your email or password is incorrect!" in self.login_page.verify_false_user_text()
-        else:
-            assert self.name in self.login_page.verify_user_text()
-
-
+    def login_with_invalid_credentials(self):
+        self.header.click_signup_login_button()
+        assert self.driver.current_url == "https://automationexercise.com/login"
+        self.login_page.enter_email_login_credentials("fake_email@example.com", "wrongpassword")
+        self.login_page.click_login_button()
+        assert "Your email or password is incorrect!" in self.login_page.verify_false_user_text()
 
     def logout(self):
         self.header.click_logout_button()

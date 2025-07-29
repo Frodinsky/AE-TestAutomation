@@ -1,11 +1,9 @@
 from helpers.user_flows import User
-import time
 
 def test_login_user(driver):
 
     user = User(driver)
     user.create()
     user.logout()
-    user.login()
+    user.login_with_valid_credentials()
     user.delete()
-    time.sleep(1)
