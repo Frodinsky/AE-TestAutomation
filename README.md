@@ -19,6 +19,7 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 - [🎥 Demo del Proyecto](#demo-del-proyecto)
 - [📸 Capturas de Pantalla](#capturas-de-pantalla)
 - [📬 Contacto](#contacto)
+  
 
 ---
 
