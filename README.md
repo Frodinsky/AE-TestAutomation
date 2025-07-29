@@ -147,19 +147,19 @@ Mira una demostración en video de la ejecución de los tests end-to-end en el p
 Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas automatizadas:
 
 * **Reporte de Ejecución de Pruebas:**
-    ![Reporte HTML de Pytest](demo_screenshots/home.png)
+    ![Reporte HTML de Pytest](demo_screenshots/report.png)
     *Una visión general de los resultados de las pruebas, mostrando el estado de cada test.*
 
 * **Página de Inicio del Sitio Web:**
-    ![Home Page Automation Exercise](docs/screenshots/home_page.png)
+    ![Home Page Automation Exercise](demo_screenshots/home)
     *La página principal de "Automation Exercise", punto de partida de las pruebas.*
 
 * **Registro de Usuario Exitoso:**
-    ![Página de Registro Completo](docs/screenshots/registro_exitoso.png)
+    ![Página de Registro Completo](demo_screenshots/signup.png)
     *Demostración visual del flujo de registro de un nuevo usuario, confirmando el éxito de la operación.*
 
 * **Visualización del Primer Producto:**
-    ![Producto Individual en Detalle](docs/screenshots/primer_producto.png)
+    ![Producto Individual en Detalle](demo_screenshots/product_details.png)
     *Muestra la página de detalles de un producto, verificando la navegación y la carga de la información del artículo.*
 
 ---
