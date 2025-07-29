@@ -40,7 +40,7 @@ Este repositorio ofrece una solución de automatización integral para [https://
 
 ---
 
-## 🛠️ Tecnologpías Utilizadas
+## 🛠️ Tecnologpías Utilizadas <a id="tecnologias-utilizadas"></a>
 
 * **Python 3.x:** Lenguaje principal de desarrollo.
 * **Selenium WebDriver:** Para la interacción con el navegador.
@@ -50,7 +50,7 @@ Este repositorio ofrece una solución de automatización integral para [https://
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto <a id="estructura-del-proyecto"></a>
 
 ```
 AE-TestAutomation/
@@ -67,7 +67,7 @@ AE-TestAutomation/
 
 ---
 
-## ▶️ Guía de Ejecución
+## ▶️ Guía de Ejecución <a id="guia-de-ejecucion"></a>
 
 Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 
@@ -92,7 +92,7 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
 
 ---
 
-## ✅ Casos de Prueba Implementados
+## ✅ Casos de Prueba Implementados <a id="casos-de-prueba-implementados"></a>
 
 Actualmente, el proyecto cubre los siguientes escenarios clave:
 
@@ -112,7 +112,7 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 
 ---
 
-## 🧠 Decisiones Técnicas Clave
+## 🧠 Decisiones Técnicas Clave <a id="decisiones-tecnicas-clave"></a>
 
 * **Arquitectura Page Object Model (POM):** Cada página o componente significativo de la interfaz de usuario se modela como una clase, encapsulando sus elementos y las interacciones posibles. Esto mejora la legibilidad, mantenibilidad y reusabilidad del código.
 * **Uso Extenso de Pytest Fixtures:** `conftest.py` centraliza la configuración y el `teardown` de los tests (ej. inicialización del WebDriver), asegurando un setup limpio y DRY (Don't Repeat Yourself).
@@ -124,7 +124,7 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 
 ---
 
-## 🗺️ Roadmap y Mejoras Futuras
+## 🗺️ Roadmap y Mejoras Futuras <a id="roadmap-y-mejoras-futuras"></a>
 
 Mi plan para la evolución de este proyecto incluye:
 
@@ -135,7 +135,7 @@ Mi plan para la evolución de este proyecto incluye:
 
 ---
 
-## 🎥 Demo del Proyecto
+## 🎥 Demo del Proyecto <a id="demo-del-proyecto"></a>
 
 Mira una demostración en video de la ejecución de los tests end-to-end en el proyecto:
 
@@ -165,7 +165,7 @@ Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas aut
 
 ---
 
-## 📬 Contacto
+## 📬 Contacto <a id="contacto"></a>
 
 ¡Me encantaría conectar! No dudes en contactarme para cualquier pregunta o colaboración.
 
