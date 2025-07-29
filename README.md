@@ -8,17 +8,17 @@ Automatización de pruebas end-to-end (E2E) robusta y escalable utilizando **Pyt
 
 ## 📌 Tabla de Contenidos
 
-- [✨ Puntos Clave](#-puntos-clave)
-- [🚀 Características Destacadas](#-características-destacadas)
-- [🛠️ Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [▶️ Guía de Ejecución](#-guía-de-ejecución)
-- [✅ Casos de Prueba Implementados](#-casos-de-prueba-implementados)
-- [🧠 Decisiones Técnicas Clave](#-decisiones-técnicas-clave)
-- [🗺️ Roadmap y Mejoras Futuras](#-roadmap-y-mejoras-futuras)
-- [🎥 Demo del Proyecto](#-demo_del_proyecto)
-- [📬 📸 Capturas de Pantalla](#-captura_de_pantalla)
-- [📬 Contacto](#-contacto)
+- [✨ Puntos Clave](#puntos-clave)
+- [🚀 Características Destacadas](#caracteristicas-destacadas)
+- [🛠️ Tecnologías Utilizadas](#tecnologias-utilizadas)
+- [📁 Estructura del Proyecto](#estructura-del-proyecto)
+- [▶️ Guía de Ejecución](#guia-de-ejecucion)
+- [✅ Casos de Prueba Implementados](#casos-de-prueba-implementados)
+- [🧠 Decisiones Técnicas Clave](#decisiones-tecnicas-clave)
+- [🗺️ Roadmap y Mejoras Futuras](#roadmap-y-mejoras-futuras)
+- [🎥 Demo del Proyecto](#demo-del-proyecto)
+- [📸 Capturas de Pantalla](#capturas-de-pantalla)
+- [📬 Contacto](#contacto)
 
 ---
 
