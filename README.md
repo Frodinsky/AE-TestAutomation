@@ -147,7 +147,7 @@ Mira una demostración en video de la ejecución de los tests end-to-end en el p
 Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas automatizadas:
 
 * **Reporte de Ejecución de Pruebas:**
-    ![Reporte HTML de Pytest](docs/screenshots/reporte_final.png)
+    ![Reporte HTML de Pytest](AE-TestAutomation/demo_screenshots/home.png)
     *Una visión general de los resultados de las pruebas, mostrando el estado de cada test.*
 
 * **Página de Inicio del Sitio Web:**
