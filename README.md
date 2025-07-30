@@ -100,12 +100,12 @@ Actualmente, el proyecto cubre los siguientes escenarios clave:
 * ✅ **Test Case 2:** Registro de nuevo usuario.
 * ✅ **Test Case 3:** Inicio de sesión del usuario.
 * ✅ **Test Case 8:** Navegación por categorías.
-* 🛠️ **Test Case 9:** Búsqueda y filtros.
+* ✅ **Test Case 9:** Búsqueda y filtros.
 * 🛠️ **Test Case 12:** Añadir productos al carrito desde la página de detalles del producto.
+* 🛠️ **Test Case 13:** Verificación de cantidad de productos en el carrito.
 
 **Próximamente se implementarán los siguientes casos:**
 
-* **Test Case 13:** Verificación de cantidad de productos en el carrito.
 * **Test Case 14/15/16:** Realizar un pedido.
 * **Test Case 17:** Eliminar productos del carrito.
 * **Test Case 20:** Verificar la funcionalidad de suscripción en el pie de página.
