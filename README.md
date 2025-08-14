@@ -170,3 +170,4 @@ Aquí puedes ver la interfaz de la aplicación y el resultado de las pruebas aut
 ¡Me encantaría conectar! No dudes en contactarme para cualquier pregunta o colaboración.
 
 💼 [LinkedIn](https://www.linkedin.com/in/rodolfo-lara-qa-automation/)
+/
